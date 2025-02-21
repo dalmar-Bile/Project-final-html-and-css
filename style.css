@@ -706,6 +706,7 @@ button{
     }
     .choose-program h1{
         font-size: 3rem;
+        color: #000000;
     }
     .choose-program img{
         width: 10%;
@@ -720,8 +721,12 @@ button{
     .content-hero h3{
         font-size: 2rem;
     }
+    .content-grid h1{
+        color: #000000;
+        font-size: 2rem;
+    }
     .banner{
-        width: 350%;
+        width: 380%;
         font-size: 1.9rem;
     }
     .banner p{
@@ -738,6 +743,7 @@ button{
     }
     .our-classes h1{
         font-size: 3rem;
+        color: #000000;
     }
     .our-classes img{
         width: 10%;
@@ -753,7 +759,7 @@ button{
         font-size: 2rem;
     }
     .backroun-schedule{
-        width: 380%;
+        width: 400%;
         font-size: 1.9rem;
         height: 100%;
     }
@@ -789,7 +795,30 @@ button{
     }
 
     .all-content{
-        width: 350%;
+        width: 400%;
+        display: flex;
+        flex-direction: column;
+        
+ 
+    }
+    .content-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+      
+       
+        
+
+    }
+    iframe {
+        width: 80%;
+    }
+    .form-cont{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
     }
     footer{
         width: 350%; 
