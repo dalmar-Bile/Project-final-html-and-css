@@ -624,14 +624,14 @@ button{
         flex-direction: column;
         align-items: center;
         position: fixed;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
         inset: 0 0 0 0;
-        transform: translateX(0%);
+        transform: translateY(0%);
         transition: transform 350ms ease-in-out;
 
     }
     .mobile-menu[data-visible="false"] {
-        transform: translateX(100%);
+        transform: translateY(100%);
     }
 
     .hamburger i[data-visible="true"]{
@@ -662,20 +662,22 @@ button{
         border: none;
         align-items: center;
         margin-bottom: 12px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .buttons li{
         list-style: none;
     }
     .buttons li a{
         text-decoration: none;
-        color: aliceblue;
-        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
     }
     h1{
         color: #ffffff;
-        font-size: 4em;
+        font-size: 6em;
         font-weight: 600;
+        margin-top: 100px;
+       
     }
 
     #one{
@@ -690,6 +692,7 @@ button{
        color: #fff7f7;
        font-size: 3.5rem;
        border-bottom: 2px solid white;
+       gap: 30px;
     }
     header{
       width:390%;
@@ -796,8 +799,8 @@ button{
 
     .all-content{
         width: 400%;
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         
  
     }
@@ -806,23 +809,22 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 100%;
       
        
         
 
     }
-    iframe {
-        width: 80%;
-    }
-    .form-cont{
+
+    /* .form-cont{
         display: flex;
         flex-direction: column; 
         width: 100%;
-    }
+    } */
     footer{
         width: 350%; 
         font-size: 2rem;
+        margin-top: 30%;
     }
 }
 
