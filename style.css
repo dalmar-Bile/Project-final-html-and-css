@@ -509,6 +509,7 @@ color: #ed563b;
     width: 100%;
     padding: 10px;
      gap: 20px;
+     width: 100%;
    
 }
 
@@ -527,6 +528,7 @@ color: #ed563b;
     align-items: center;
     text-align: center;
     gap: 10px;
+    width: 100%;
     
 }
 .social-media{
@@ -552,19 +554,42 @@ color: #ed563b;
     gap: 10px;
     background: url('contact-bg.jpg');
     margin: 4px;
+    width: 100%;
 }
 .cont-form{
   background-color: #ffffff;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 16px;
   border-radius: 10px;
   margin: 4px;
+  width: 100%;
 }
 input{
-    padding: 5px;
+    padding: 20px 30px;
+    display: block;
+    border: 2px solid black;
+ 
+    
+}
+.pla{
+
+    font-size: 1.4rem;
+}
+.plas{
+
+    font-size: 1.3rem;
+}
+.pls{
+ 
+    font-size: 1.3rem;
+}
+textarea{
+    width:100% ;
+    height: 100%;
+    border: 2px solid black;
     
 }
 form{
@@ -579,6 +604,82 @@ button{
 }
  /* mobile */
 @media (max-width:640px){
+    .contect{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .contect{
+        width: 300%;
+        position: relative;
+        left: 200px;
+    }
+    iframe{
+        width: 100%;
+    }
+.grid-co{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.cont-form{
+    width: 100%;
+}
+form{
+    padding: 20px;
+}
+input{
+    padding: 20px;
+    border: 3px solid black;
+}
+.pla{
+    color: blue;
+    font-size: 2rem;
+}
+.plas{
+    color: blue;
+    font-size: 2rem;
+}
+.pls{
+    color: blue;
+    font-size: 2rem;
+}
+footer{ 
+    position: relative;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 20%;
+}
+.cont-gr{
+    position: relative;
+    left: 180px;
+    width: 300%;
+}
+.con-down {
+    font-size: 3rem;
+}
+.social-media{
+    font-size: 3rem;
+}
+  .expert-tr h1{
+  color: #000000;
+  font-size: 4rem;
+  }
+  .expert-tr img{
+    width: 10%;
+  }
+  .expert-tr p{
+    font-size: 2.5rem;
+  }
+  .expert-tr {
+     position: relative;
+     left: 500px;
+     width: 100%;
+   
+  }
     .desktop-menu{
         display: none;
     }
@@ -677,7 +778,7 @@ button{
     }
     header{
     height: 100vh;
-    width: 300%;   
+    width: 350%;   
 
     }
 
